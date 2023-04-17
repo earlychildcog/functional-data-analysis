@@ -1,12 +1,15 @@
-# fda_matlab
+# functional data analysis for matlab
 
 scripts for functional data analysis in matlab
-Includes the folder fdaM from https://www.psych.mcgill.ca/misc/fda/downloads/FDAfuns/Matlab/
 Uses the scripts from the project above to compute spline basis, and then uses custom matlab scripts to conduct functional data analysis on a one-dimensional timeseries
-Includes fast vectorised computations of T and F statistic functions, and parallelly processed permutations.
+Includes fast vectorised computations of T and F statistic functions, and permutations are computed in parallel.
+For a short review on what this is about, see presentation in `docs` folder.
 
+The demo script needs to be updated with some simulated data.
 
 # version history
+
+v0.3 15.03.2023 removed external depedencies for spline computation.
 
 v0.2 14.02.2022 added cluster option for multiple comparisons. Expanded null distribution and data plotting options.
 
