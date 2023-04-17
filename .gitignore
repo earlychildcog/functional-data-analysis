@@ -1,0 +1,10 @@
+# no plots saved online for now
+*.fig
+
+# ignore some folders
+
+# ignore temp matlab files
+*.asv
+*_old.m
+*.mat
+*~
